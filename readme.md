@@ -7,6 +7,7 @@ This project optimizes images from a source folder and saves the optimized versi
 ## Folder Structure
 
 webp-converter/
+
 ├── main.py  
 ├── readme.txt  
 ├── requirements.txt  
@@ -28,9 +29,9 @@ The source folder **Org-Image/** must contain **at least one subfolder** with im
 Example:
 
 Org-Image/  
-└── image-folder-1/  
-    ├── image1.jpg  
-    ├── image2.png  
+├── image-folder-1/  
+│   ├── image1.jpg  
+│   ├── image2.png  
 
 If you put images directly in Org-Image/ without a subfolder, the optimizer **will not process them**.
 
