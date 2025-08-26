@@ -1,0 +1,14 @@
+# Ignore virtual environment
+webp-converter-env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Ignore generated/optimized images if not needed
+Opt-Image/
