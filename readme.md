@@ -1,8 +1,10 @@
-# webp-converter
+# webp-converter 
+
+Version 1.0
 
 This project optimizes images from a source folder and saves the optimized versions in a destination folder. It supports resizing, aspect ratio preservation, and optional WebP conversion.
 
-# Folder Structure
+## Folder Structure
 
 webp-converter/
 ├── main.py  
@@ -19,7 +21,7 @@ webp-converter/
 ├── Org-Image/  
 │   ├── sample-images/  
 
-# Important Note About Source Folder
+## Important Note About Source Folder
 
 The source folder **Org-Image/** must contain **at least one subfolder** with images.  
 
@@ -32,7 +34,7 @@ Org-Image/
 
 If you put images directly in Org-Image/ without a subfolder, the optimizer **will not process them**.
 
-# How to Install and Run (First Time)
+## How to Install and Run (First Time)
 
 1. Place the project folder anywhere on your computer.  
 2. Open the folder.  
@@ -43,24 +45,18 @@ The batch file will:
 - Install required Python packages (requirements.txt).  
 - Run the optimizer.
 
-# How to Use from Next Time
+## How to Use from Next Time
 
 - Simply double-click **run.bat** again, or run **run.py** from Python if you prefer.  
 - The virtual environment is already set up, so dependencies are already installed.
 
-# Where to Place Source & Destination Folders
+## Where to Place Source & Destination Folders
 
-- Place the images you want to optimize in subfolders inside:
+Place the images you want to optimize in subfolders inside Org-Image/. The optimized images will be automatically saved in Opt-Image/ with the same name.
 
-Org-Image/
+Both folders are relative to the project root.
 
-- Optimized images will be saved in:
-
-Opt-Image/
-
-- Both folders are relative to the project root.
-
-# User Settings (in run.py)
+## User Settings (in run.py)
 
 You can configure the following options by editing **run.py**:
 
@@ -79,6 +75,6 @@ MAX_DIMENSION = 1200
 QUALITY = 90  
 CONVERT_WEBP = False  
 
-# That’s it!
+## That’s it!
 
 Just place your images in subfolders of Org-Image/, configure settings in run.py if needed, and run the optimizer.
